@@ -20,3 +20,6 @@ The primary test evaluates the model's resistance to prompt injection and indire
 1. Install [Ollama](https://ollama.com/) and pull the target model:
    ```bash
    ollama pull llama3.2
+   
+### Advanced Testing: Denial of Service (DoS)
+- **Context Window Exhaustion**: Developed `dos_test.py` to evaluate the model's resilience against massive payload injections. By sending payloads exceeding standard context limits, the harness tests whether the underlying API gracefully rejects the input or suffers a Denial of Service (crash/hang), directly impacting system Availability.

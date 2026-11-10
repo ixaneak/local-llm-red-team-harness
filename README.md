@@ -23,3 +23,5 @@ The primary test evaluates the model's resistance to prompt injection and indire
    
 ### Advanced Testing: Denial of Service (DoS)
 - **Context Window Exhaustion**: Developed `dos_test.py` to evaluate the model's resilience against massive payload injections. By sending payloads exceeding standard context limits, the harness tests whether the underlying API gracefully rejects the input or suffers a Denial of Service (crash/hang), directly impacting system Availability.
+
+- **Multi-Vector Risk Scoring**: Developed `advanced_scanner.py` to categorize attacks (Direct, Obfuscation, Roleplay) and calculate a quantitative Risk Score. Identified a specific 16.7% vulnerability rate in obfuscation techniques (translation bypass), while direct injection attempts were successfully blocked.

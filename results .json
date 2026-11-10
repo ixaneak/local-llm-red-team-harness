@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is a system prompt in a large language model? Answer in one sentence.",
+    "answer": "A system prompt in a large language model is a specific input provided to the model to elicit a particular response or behavior, guiding the model to generate a relevant and accurate output within the scope of its training data."
+  },
+  {
+    "question": "What is 12 times 12?",
+    "answer": "12 \u00d7 12 = 144."
+  },
+  {
+    "question": "Who wrote ROmeo and Juliet?",
+    "answer": "Shakespeare wrote Romeo and Juliet."
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris."
+  },
+  {
+    "question": "Explain what prompt injection is in one sentence.",
+    "answer": "Prompt injection refers to the process of manipulating or modifying the input or prompt provided to a model, such as a language model, to elicit a specific response, bias, or behavior, often to test its limitations or vulnerabilities."
+  }
+]
